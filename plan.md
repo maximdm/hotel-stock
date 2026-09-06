@@ -176,7 +176,7 @@ mobile/
 ## 7. Milestones (in order)
 
 1. **M1 — Foundations (done).** Expo + Go scaffolding verified.
-2. **M2 — Schema & local DB.** SQLite schema + migrations; zones + items seeded; repos with SQLite-first CRUD; ledger + balance invariants (negative-stock guard).
+2. **M2 — Schema & local DB (done).** SQLite schema + migrations; zones + items seeded; repos with SQLite-first CRUD; ledger + balance invariants (negative-stock guard).
 3. **M3 — Go data + auth.** Zod schema → migrations; auth login/JWT/RBAC; zones/items endpoints against in-memory SQLite; targeted tests.
 4. **M4 — Sync.** Go push/pull handlers (batch, ordered, transactional, idempotent); mobile queue insert/extract; NetInfo-gated flush; isolated sync tests (mock network).
 5. **M5 — Design + UI.** Set up NativeWind, rn-primitives, expo-blur/reanimated (per §2); glass component kit; Login, ZoneHome/inventory list, in/out/transfer dialogs, sync status; offline permission gating.
