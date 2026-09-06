@@ -1,0 +1,10 @@
+# External reference clones (not project code)
+reference/
+reference-gorm/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
