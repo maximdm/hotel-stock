@@ -1,0 +1,15 @@
+{
+  "name": "hotel-stock",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n backend,mobile -c blue,magenta \"npm run dev:backend\" \"npm run dev:mobile\"",
+    "dev:backend": "go run -C backend .",
+    "dev:mobile": "npm run start --prefix mobile",
+    "build:backend": "go build -C backend -o backend.exe .",
+    "test:backend": "go test -C backend ./..."
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

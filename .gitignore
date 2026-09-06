@@ -2,9 +2,14 @@
 reference/
 reference-gorm/
 
+# Root node_modules (concurrently for dev scripts)
+node_modules/
+
 # OS / editor junk
 .DS_Store
 Thumbs.db
 *.swp
 .idea/
 .vscode/
+*.log
+
